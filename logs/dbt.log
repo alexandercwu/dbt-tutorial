@@ -1,0 +1,101 @@
+[0m02:34:33.103581 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10731d940>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x112962ad0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x112962990>]}
+
+
+============================== 02:34:33.106792 | 52e17427-babd-4a13-b3f5-e9a37fe12a6f ==============================
+[0m02:34:33.106792 [info ] [MainThread]: Running with dbt=1.7.9
+[0m02:34:33.107131 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'use_experimental_parser': 'False', 'send_anonymous_usage_stats': 'True', 'write_json': 'True', 'introspect': 'True', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'version_check': 'True', 'invocation_command': 'dbt init jaffle_shop', 'target_path': 'None', 'profiles_dir': '/Users/usuari/.dbt', 'use_colors': 'True', 'partial_parse': 'True', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'warn_error': 'None', 'quiet': 'False', 'debug': 'False', 'fail_fast': 'False', 'log_format': 'default', 'log_path': 'logs', 'cache_selected_only': 'False'}
+[0m02:34:33.107435 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': PosixPath('/Users/usuari/.dbt')}
+[0m02:34:33.107595 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m02:34:33.108163 [debug] [MainThread]: Starter project path: /Users/usuari/Documents/programming/dbt/dbt-env/lib/python3.13/site-packages/dbt/include/starter_project
+[0m02:34:33.111258 [info ] [MainThread]: 
+Your new dbt project "jaffle_shop" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m02:34:33.111471 [info ] [MainThread]: Setting up your profile.
+[0m02:34:42.807659 [info ] [MainThread]: Profile jaffle_shop written to /Users/usuari/.dbt/profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+[0m02:34:42.960618 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x112aba190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x112af9b50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x112ace7a0>]}
+[0m02:34:42.960933 [debug] [MainThread]: Flushing usage events
+[0m02:38:11.049942 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1072ed940>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ae63610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ae63890>]}
+
+
+============================== 02:38:11.053226 | 88fea8b5-4b44-4b3d-90af-b959e828ced9 ==============================
+[0m02:38:11.053226 [info ] [MainThread]: Running with dbt=1.7.9
+[0m02:38:11.053545 [debug] [MainThread]: running dbt with arguments {'log_format': 'default', 'introspect': 'True', 'debug': 'False', 'target_path': 'None', 'no_print': 'None', 'version_check': 'True', 'log_cache_events': 'False', 'cache_selected_only': 'False', 'indirect_selection': 'eager', 'partial_parse': 'True', 'static_parser': 'True', 'fail_fast': 'False', 'invocation_command': 'dbt init jaffle_shop', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'profiles_dir': '/Users/usuari/.dbt', 'printer_width': '80', 'log_path': 'logs', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'quiet': 'False', 'write_json': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m02:38:11.054101 [info ] [MainThread]: A project called jaffle_shop already exists here.
+[0m02:38:11.056043 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10aed0770>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10aef84d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10aee05a0>]}
+[0m02:38:11.056280 [debug] [MainThread]: Flushing usage events
+[0m02:42:33.970115 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103659940>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1054cb610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1054cb890>]}
+
+
+============================== 02:42:33.973543 | a973d97c-bd11-4525-a8eb-4a4832dc2b24 ==============================
+[0m02:42:33.973543 [info ] [MainThread]: Running with dbt=1.7.9
+[0m02:42:33.973896 [debug] [MainThread]: running dbt with arguments {'invocation_command': 'dbt init jaffle_shop', 'warn_error': 'None', 'quiet': 'False', 'version_check': 'True', 'debug': 'False', 'write_json': 'True', 'fail_fast': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'log_cache_events': 'False', 'log_format': 'default', 'use_experimental_parser': 'False', 'partial_parse': 'True', 'indirect_selection': 'eager', 'log_path': 'logs', 'cache_selected_only': 'False', 'target_path': 'None', 'use_colors': 'True', 'static_parser': 'True', 'printer_width': '80', 'no_print': 'None', 'introspect': 'True', 'profiles_dir': '/Users/usuari/.dbt', 'send_anonymous_usage_stats': 'True'}
+[0m02:42:33.974473 [info ] [MainThread]: A project called jaffle_shop already exists here.
+[0m02:42:33.976297 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105538770>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1055604d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1055485a0>]}
+[0m02:42:33.976506 [debug] [MainThread]: Flushing usage events
+[0m02:44:14.249114 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11001d940>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x113f63610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x113f63890>]}
+
+
+============================== 02:44:14.252445 | 74a3ca3c-2707-4f39-b5c5-11ebfe0fc1ac ==============================
+[0m02:44:14.252445 [info ] [MainThread]: Running with dbt=1.7.9
+[0m02:44:14.252770 [debug] [MainThread]: running dbt with arguments {'introspect': 'True', 'invocation_command': 'dbt init jaffle_shop', 'use_colors': 'True', 'log_path': 'logs', 'static_parser': 'True', 'log_format': 'default', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'fail_fast': 'False', 'indirect_selection': 'eager', 'profiles_dir': '/Users/usuari/.dbt', 'debug': 'False', 'warn_error': 'None', 'cache_selected_only': 'False', 'target_path': 'None', 'send_anonymous_usage_stats': 'True', 'no_print': 'None', 'quiet': 'False', 'use_experimental_parser': 'False', 'write_json': 'True', 'version_check': 'True', 'log_cache_events': 'False', 'printer_width': '80', 'partial_parse': 'True'}
+[0m02:44:14.253330 [debug] [MainThread]: Starter project path: /Users/usuari/Documents/programming/dbt/dbt-env/lib/python3.13/site-packages/dbt/include/starter_project
+[0m02:44:14.257359 [info ] [MainThread]: 
+Your new dbt project "jaffle_shop" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m02:44:14.257585 [info ] [MainThread]: Setting up your profile.
+[0m02:44:22.386294 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x114a0e2c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1148d7410>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x114a229c0>]}
+[0m02:44:22.386636 [debug] [MainThread]: Flushing usage events
+[0m02:46:13.508112 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10790d7f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109787610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109787890>]}
+
+
+============================== 02:46:13.511227 | 5b0f376f-9b52-4223-9ba3-91abb2072cf3 ==============================
+[0m02:46:13.511227 [info ] [MainThread]: Running with dbt=1.7.9
+[0m02:46:13.511559 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': '/Users/usuari/.dbt', 'log_path': 'logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt init jaffle_shop', 'send_anonymous_usage_stats': 'True'}
+[0m02:46:13.512129 [debug] [MainThread]: Starter project path: /Users/usuari/Documents/programming/dbt/dbt-env/lib/python3.13/site-packages/dbt/include/starter_project
+[0m02:46:13.515346 [info ] [MainThread]: 
+Your new dbt project "jaffle_shop" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m02:46:13.515534 [info ] [MainThread]: Setting up your profile.
+[0m02:46:20.012021 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 6.535665, "process_user_time": 1.092653, "process_kernel_time": 0.131139, "process_mem_max_rss": "109527040", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m02:46:20.012404 [debug] [MainThread]: Command `dbt init` succeeded at 02:46:20.012311 after 6.54 seconds
+[0m02:46:20.012637 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10513e520>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1098fb890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1099caad0>]}
+[0m02:46:20.012872 [debug] [MainThread]: Flushing usage events
